@@ -60,6 +60,49 @@ header_container {
 
 }
 
-header {
-  margin: 10px;
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 8%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  flex-direction: row;
+}
+
+
+.image_1, .image_2, .image_3 {
+  height: 200px;
+}
+
+
+.feature_image {
+  width: 100%
+}
+
+.feature_button {
+  display: inline-block;
+  background-color: var(--c-red);
+  color: var(--c-white);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.20em;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-self: start;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.feature_title {
+  text-align: center;
+}
+
+.feature_text {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 50px;
 }

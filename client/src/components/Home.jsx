@@ -11,32 +11,45 @@ function Home({search}) {
       <p className='feature_text'>Here we dive into the evolution of the web that claims to put the power of the platforms hack into the hands of the people. But is it really fufilling its promise?</p>
       <button className='feature_button'>READ MORE</button>
       <br></br>
-      <img src='/P2IMAGES/crypto01.png' className='image_1' />
+      <main className='main_container'>
+      <section className='new_section_container'>
       <h2 className='new'>New</h2>
-      <h3 className='main_title'>Hydrogen VS Electric Cars</h3>
-      <p className='main_text'>Will hydrogen fueled cars ever catch up to EVs?</p>
+      <h3 className='new_title'>Hydrogen VS Electric Cars</h3>
+      <p className='new_text'>Will hydrogen fueled cars ever catch up to EVs?</p>
       <br></br>
-      <img src='P2IMAGES/dogcoin.png'className='image_2'/>
-      <h3 className='main_title'>The Downsides of AI Artistry</h3>
-      <p className='main_text'>What are the possible adverse effects of on-demand AI image generation?</p>
-      <br></br>
-      <img src='/P2IMAGES/crypto.png' className='image_3' />
-      <h3 className='main_title'>Is VC Funding Drying Up?</h3>
-      <p className='main_text'>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-      <br></br>
-      <h1>01</h1>
-      <h3>Reviving Retro PCs</h3>
-      <p>What happens when old PCs are given modern upgrades?</p>
-      <h1>02</h1>
-      <h3>Top 10 Laptops of 2024</h3>
-      <p>Our best picks for various needs and budgets.</p>
-      <h1>03</h1>
-      <h3>The Growth of Gaming</h3>
-      <p>How the pandemic sparked fresh opportunities for gamers and gaming platforms.</p>
-    </home>
 
+      <h3 className='new_title'>The Downsides of AI Artistry</h3>
+      <p className='new_text'>What are the possible adverse effects of on-demand AI image generation?</p>
+      <br></br>
 
-    </>
+      <h3 className='new_title'>Is VC Funding Drying Up?</h3>
+      <p className='new_text'>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </section>
+      <br></br>
+      <div className="blog">
+        <div className="blog_item">
+      <img src='/P2IMAGES/crypto01.png' className='image' />
+      <div className="blog_container"></div>
+      <h1 className="number_headline">01</h1>
+      <h3 className="blog_title">Reviving Retro PCs</h3>
+      <p className="blog_text">What happens when old PCs are given modern upgrades?</p>
+      </div>
+      <div className="blog_item">
+      <img src='P2IMAGES/dogcoin.png'className='image'/>
+      <h1 className="number_headline">02</h1>
+      <h3 className="blog_title">Top 10 Laptops of 2024</h3>
+      <p className="blog_text">Our best picks for various needs and budgets.</p>
+      </div>
+      <div className="blog_item">
+      <img src='/P2IMAGES/crypto.png' className='image' />
+      <h1 className="number_headline">03</h1>
+      <h3 className="blog_title">The Growth of Gaming</h3>
+      <p className="blog_text">How the pandemic sparked fresh opportunities for gamers and gaming platforms.</p>
+      </div>
+    </div>
+  </main>
+  </home>
+  </>
   )
 }
 

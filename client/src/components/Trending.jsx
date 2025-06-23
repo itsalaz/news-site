@@ -1,12 +1,5 @@
-import React from 'react'
-
-
+import React from 'react';
 
 export default function Trending() {
-  return (
-    <>
-    <h1></h1>
-    </>
-  )
+  return <div>Trending</div>;
 }
-

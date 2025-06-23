@@ -8,8 +8,8 @@ export default function NavBar() {
     <NavLink to="/" ></NavLink>
     <NavLink to="/latest"></NavLink>
     <NavLink to="/market" ></NavLink>
-    <NavLink to="/news" ></NavLink>
     <NavLink to="/trending" ></NavLink>
+
     </>
 
   )

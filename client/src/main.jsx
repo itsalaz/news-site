@@ -5,6 +5,8 @@ import Latest from './components/Latest.jsx'
 import Market from './components/Market.jsx'
 import News from './components/News.jsx' 
 import Trending from './components/Trending.jsx'
+import Login from './components/UserPanel/Login'
+import Signup from './components/UserPanel/Signup'
 import App from './App.jsx'
 import './index.css' 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -34,6 +36,14 @@ const routes = [
       {
         path: '/trending',
         element: <Trending />,
+      }, 
+      {
+        path: '/login', 
+        element: <Login />  
+      }, 
+      {
+      path: '/signup', 
+      element: <Signup />
       }
     ]
   }

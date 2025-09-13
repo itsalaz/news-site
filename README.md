@@ -1,3 +1,9 @@
+
+React front-end new site app, mobile friendly userface, footers, customized graphics, made with Flutter, login handling, with focus on CSS layout and design.
+
+
+
+
 Flask
 
 ```console
